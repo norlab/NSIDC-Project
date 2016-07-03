@@ -1,0 +1,127 @@
+<style type="text/css">
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+    background-color: darkslategray;
+}
+body {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+#header {
+    width: 800px;
+    margin: auto;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+#table {
+	max-width: 800px;
+    margin: auto;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+#abstract {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+#vis {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+#supplementary {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+#footer {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+</style>
+
+<body>
+<div id="header">
+<h1 style="text-align: center;"><span style="font-weight: 600;"> Analysis of NSIDC Dataset Downloads and Metadata</span></h1>
+<h2 style="text-align: center;"><span style="font-weight: 400;">The Relationship Between Extant Metadata and Download Rates of Datasets in the National Snow and Ice Data Center Repository</span></h1>
+
+</div>
+
+
+<div id="table">
+<style type="text/css">
+.tg  {margin-left:auto;margin-right:auto;}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:none;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:none;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-hgcj{font-weight:bold;text-align:center}
+
+  }
+
+</style>
+
+<table class="tg">
+  <tr>
+    <th class="tg-hgcj">Yulia Kolesnikova</th>
+    <th class="tg-hgcj">Adam Lathrop<br></th>
+    <th class="tg-hgcj">Bree Norlander<br></th>
+    <th class="tg-hgcj">An Yan<br></th>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">University of Washington<br></td>
+    <td class="tg-s6z2">University of Washington<br></td>
+    <td class="tg-s6z2">University of Washington<br></td>
+    <td class="tg-s6z2">University of Washington<br></td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">Information School<br></td>
+    <td class="tg-s6z2">Information School<br></td>
+    <td class="tg-s6z2">Information School<br></td>
+    <td class="tg-s6z2">Information School<br></td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">kolesy@uw.edu</td>
+    <td class="tg-s6z2">adl5@uw.edu</td>
+    <td class="tg-s6z2">norlab@uw.edu</td>
+    <td class="tg-s6z2">yanan15@uw.edu</td>
+  </tr>
+</table>
+</div>
+<div id="abstract">
+<h1>Abstract</h1>
+There are few research studies that quantitatively analyze metadata elements associated with scientific data reuse. By using metadata and dataset download rates from the National Snow and Ice Data Center, we address whether there are key indicators in data repository metadata that correlate with the download rate of a dataset and whether we can predict data reuse using machine learning techniques. We used the rate of download by unique IP addresses for individual datasets as our dependent variable and as a proxy for data reuse. Our analysis shows that the following metadata elements in NSIDC datasets are positively correlated with download rates: year of citation, number of data formats, number of contributors, number of platforms, number of  spatial coverage areas, number of locations, and number of keywords. Our results are applicable to researchers and professionals working with data and add to the small body of work addressing metadata best practices for increasing discovery of data.
+<h2>Keywords</h2>
+metadata, data curation, machine learning, data citation, data reuse, data repositories
+</div>
+<div id="vis">
+<h2>Visualizations</h2>
+
+<figure>
+    <img src="https://infx575nsidc.files.wordpress.com/2016/05/hist_logdownloaddistribution.jpg" alt="Hist_LogDownloadDistribution"/>
+    <figcaption>Log-normal distribution of dataset downloads.</figcaption>
+</figure>
+<figure>
+    <img src="https://infx575nsidc.files.wordpress.com/2016/05/adamtree3.png" alt="AdamTree3"/>
+    <figcaption>Decision tree using training data with lowest natural log RMSE (1.29623 ln). Unlabels numeric in each box represents the mean ln of download rates for the given sample (n) of the data. Created with R package RPart version 4.1.10 (Milborrow, 2014) using colors from RColorBrewer version 1.1.2 (Neuwirth, 2011).</figcaption>
+</figure>
+</div>
+
+<div id="footer">
+INFX 575: Data Scaling, Applications and Ethics
+</div>
+</body>
