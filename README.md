@@ -48,7 +48,7 @@ metadata, data curation, machine learning, data citation, data reuse, data repos
 </figure>
 <figure>
     <img src="https://infx575nsidc.files.wordpress.com/2016/05/adamtree3.png" alt="AdamTree3"/>
-    <figcaption>Decision tree using training data with lowest natural log RMSE (1.29623 ln). Unlabels numeric in each box represents the mean ln of download rates for the given sample (n) of the data. Created with R package RPart version 4.1.10 (Milborrow, 2014) using colors from RColorBrewer version 1.1.2 (Neuwirth, 2011).</figcaption>
+    <figcaption>Decision tree using training data with lowest natural log RMSE (1.29623 ln). Unlabeled numeric in each box represents the mean ln of download rates for the given sample (n) of the data. Created with R package RPart version 4.1.10 (Milborrow, 2014) using colors from RColorBrewer version 1.1.2 (Neuwirth, 2011).</figcaption>
 </figure>
 </div>
 
